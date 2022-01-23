@@ -142,7 +142,7 @@ gradle-app.setting
 
 # custom entries
 *.class
-*.jar
+#*.jar
 *.war
 *.ear
 *.nar

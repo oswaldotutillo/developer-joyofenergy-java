@@ -48,4 +48,9 @@ public class MeterReadingController {
                 ? ResponseEntity.ok(readings.get())
                 : ResponseEntity.notFound().build();
     }
+
+    @GetMapping("/rap5")
+    public String readReadings() {
+        return "Hello World - I have deployed successfully";
+    }
 }

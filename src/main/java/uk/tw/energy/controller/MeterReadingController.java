@@ -48,4 +48,9 @@ public class MeterReadingController {
                 ? ResponseEntity.ok(readings.get())
                 : ResponseEntity.notFound().build();
     }
+
+    @GetMapping("/rap")
+    public String readReadings() {
+        return "WELCOME TO RAP 5 CICD SESSION";
+    }
 }

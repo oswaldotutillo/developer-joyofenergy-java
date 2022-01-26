@@ -1,1 +1,1 @@
-web: java -jar build/libs/developer-joyofenergy-java.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar app.jar
